@@ -143,9 +143,9 @@ header {
   }
   #hero{
     display: table;
-    width: 84%;
+    width: 81%;
     height: 100vh;
-    background: url(Alothman1.jpg) top center;
+    background: url(../img/Alothman1.jpg) top center;
     background-size: cover;
   }
   .nav__links li {
@@ -162,6 +162,10 @@ header {
     cursor: pointer;
     width: 110px;
     height: 30px;
+  }
+  .mobMIDDLE{
+    width: 40%;
+    height: 40%;
   }
 
 }

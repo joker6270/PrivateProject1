@@ -117,29 +117,51 @@ header {
   }
 }
 
-@media (max-width: 520px) {
-  .nav__links,
+@media (max-width: 480px) {
   .cta {
-      list-style: none;
-      display: flex;
-    }
-
+    padding: 9px 15px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+}
+  body{
+    width: 480px;
+    height: 900px;
+  }
   .menu1 {
     display: initial;
   }
-
-  nav {
+  header {
     display: flex;
-}
-.imgSize{
-  height: 40px;
-  width: 120px;
-}
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
+    padding: 15px 0%;
     background-color: #060d1f;
+    width: 84%;
+    height: 2vh;
+    align-items: flex-start;
+  }
+  #hero{
+    display: table;
+    width: 81%;
+    height: 100vh;
+    background: url(../img/Alothman1.jpg) top center;
+    background-size: cover;
+  }
+  .nav__links li {
+      padding: 0px 10px;
+  }
+  .nav__links {
+    list-style: none;
+    padding-left: 8px;
+    display: flex;
+    font-size: 12px;
 }
+
+  .MobIMG {
+    cursor: pointer;
+    width: 110px;
+    height: 30px;
+  }
+
 }

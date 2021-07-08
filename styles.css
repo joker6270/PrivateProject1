@@ -127,8 +127,8 @@ header {
     transition: background-color 0.3s ease 0s;
 }
   body{
-    width: 480px;
-    height: 900px;
+    width: 390px;
+    
   }
   .menu1 {
     display: initial;
@@ -137,14 +137,14 @@ header {
     display: flex;
     padding: 15px 0%;
     background-color: #060d1f;
-    width: 480px;
+    width: 384px;
     height: 2vh;
     align-items: flex-start;
   }
   #hero{
     display: table;
-    width: 480px;
-    height: 900px;
+    width: 384px;
+    height: 854px;
     background: url(Alothman1.jpg) top center;
     background-size: cover;
   }

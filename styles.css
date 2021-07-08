@@ -137,13 +137,13 @@ header {
     display: flex;
     padding: 15px 0%;
     background-color: #060d1f;
-    width: 384px;
+    width: 395px;
     height: 2vh;
     align-items: flex-start;
   }
   #hero{
     display: table;
-    width: 384px;
+    width: 395px;
     height: 854px;
     background: url(Alothman1.jpg) top center;
     background-size: cover;
